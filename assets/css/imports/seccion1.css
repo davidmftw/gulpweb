@@ -1,0 +1,57 @@
+.seccion1 {
+  background-image: url("../images/introbg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+
+.pushright {
+  margin-left: 330px; }
+
+.title {
+  height: 100;
+  text-align: right;
+  margin: auto;
+  width: 470px; }
+  .title h1 {
+    color: white;
+    font-size: 33px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.5; }
+  .title span {
+    font-weight: bold;
+    font-size: 33px;
+    color: white; }
+  .title .typej {
+    z-index: 10; }
+  .title .portrait {
+    background-image: url(../images/dm-portrait.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 400px;
+    width: 550px; }
+
+@media (max-width: 1200px) {
+  .title h1 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.5; }
+  .title span {
+    font-weight: bold;
+    font-size: 30px;
+    color: white; }
+  .pushright {
+    margin-left: 0px;
+    margin-top: 260px;
+    max-width: 300px; } }
+
+@media (max-width: 400px) {
+  .flex {
+    display: block; } }

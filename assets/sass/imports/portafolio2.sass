@@ -1,0 +1,94 @@
+.seccion2pt1, .seccion2pt2
+  width: 50%
+  float: left
+
+
+
+
+
+
+.seccion2pt2
+
+  display: none
+  transition: all 1s ease-in-out
+
+  .works
+    padding-bottom: 100px
+    width: 100%
+    position: relative
+    overflow-x: visible
+
+
+  .goback-boton
+    display:
+    position: absolute
+    left: -60px
+    text-align: center
+    font-size: 17px
+
+    a
+      color: $offwhite
+      opacity: 0.7
+
+      &:hover
+        color: white
+        opacity: 1
+
+
+  .proj-title
+    color: $offwhite
+    font-size: 33px
+    font-weight: 700
+    text-transform: uppercase
+    max-width: 558px
+    font-family: $headerfont
+    padding-top: 5px
+    margin-right: 25px
+    margin-bottom: 0px
+    margin-left: 15px
+
+  .proj-type
+    color: $offwhite
+    font-size: 15px
+    font-weight: 400
+    text-transform: uppercase
+    font-family: $headerfont
+    padding: auto
+    margin-bottom: 20px
+    margin-left: 15px
+
+
+  .project-content
+    color: $offwhite
+
+    p
+      color: $offwhite
+      line-height: 1.7
+      font-size: 13px
+      margin: 0px 20px 20px 20px
+
+    h1, h2, h3, h4
+      color: $offwhite
+      margin: 0px 20px 20px 20px
+      font-weight: 700
+      font-family: $headerfont
+
+    img
+      height: auto
+      width: 94%
+      margin: 10px 20px 20px 15px
+
+
+  @media (max-width: 960px)
+    .goback-boton
+      left: 15px
+      top: 0
+      margin: auto
+
+    .proj-title, .proj-type
+      margin-left: 70px
+
+.boton-proj
+  position: absolute
+  bottom: 0
+  text-transform: uppercase

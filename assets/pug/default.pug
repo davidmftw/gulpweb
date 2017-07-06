@@ -1,0 +1,111 @@
+mixin nav-content()
+  a(href="#intro").icons-nav INTRO
+  a(href="#portfolio").icons-nav.portfolio PORTFOLIO
+  a(href="#blog").icons-nav BLOG
+  a(href="#contact").icons-nav CONTACT
+
+head
+  meta(name="viewport", content="width=device-width,initial-scale=1")
+
+  link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet')
+
+
+  link(href='./assets/css/normalize.css', rel='stylesheet')
+  link(href='./assets/css/styles.css', rel='stylesheet')
+
+  link(rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css")
+
+
+
+body
+
+  .containerall
+    .navcont
+      .nav-bar
+        .logo-dm
+        .buttontoggle: span
+        .icons-web
+          +nav-content()
+        .icons-mobile
+          +nav-content()
+
+    .sections
+      .seccion1.flex.flex--center
+        #intro
+        .col-1.flex.flex--center
+          .circle
+            .circle-mid
+            .circle-small
+
+
+
+        .col-1.flex.flex--center.vert.marginbox
+          .textbox
+            .main-title
+              h1.t-bold| david
+                span.t-light matta
+              h1.t-small DISEÑADOR WEB
+
+            .mass-text
+              <p>{{site.data.settings.intro}}</p>
+              .links
+                <a href="https://www.facebook.com"><i class="fa fa-facebook-official fa-2x"></i></a>
+                <a href="https://www.facebook.com"><i class="fa fa-pinterest fa-2x"></i></a>
+                <a href="https://www.facebook.com"><i class="fa fa-behance fa-2x"></i></a>
+                <a href="https://www.facebook.com"><i class="fa fa-instagram fa-2x"></i></a>
+
+      .seccion2
+
+        .seccion2pt1
+
+          .col-2.flex--center.flex
+            #portfolio
+            .textbox2
+              .titulo-2
+                h1.t-bold-2| porta
+                 span.t-light folio
+              .mass-text2
+                p Estos son proyectos creados durante mis años como estudiante, entre edición de fotografía, infografías, páginas web e ilustraciones, todos representan mis inicios como diseñador gráfico y mi estilo visual. Todos ellos han sido creados utilizando los siguientes programas: Adobe Creative Suite CC, HTML, CSS, JADE/PUG, SASS, JQuery, entre otros.
+
+          .contenedor-portafolio
+            <div class="figurecont">
+
+              {% for project in site.data.settings.projects %}
+              <figure style="background-image: url('./../assets/images/work/{{project.folder}}/thumb.jpg')">
+                <figcaption class="top">
+                  <div class="fctop">
+                    <div class="fctitle">{{project.name}}</div>
+                    <div class="fctype">{{project.type}}</div>
+                  </div>
+                  <div class="fcbot">
+                    <div class="fcintro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</div>
+                  </div>
+                </figcaption>
+              </figure>
+              {% endfor %}
+
+            </div>
+
+          .botoncont
+            a(href="http://www.behance.net/dmd12").boton-1 PORTAFOLIO EN BEHANCE
+
+        .seccion2pt2
+          .col-2
+            .works
+              .goback-boton
+                <a class="portfolio" href="#portfolio"><i class="fa fa-chevron-circle-left fa-3x" aria-hidden="true"></i>
+              .proj-title
+                h3 fckzdwawda
+              .proj-content
+
+
+      .seccion3
+
+
+
+
+  script(src='./assets/js/jquery-3.2.0.min.js')
+  script(src='./assets/js/functions.js')

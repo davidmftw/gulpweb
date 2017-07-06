@@ -1,0 +1,176 @@
+.seccion3
+  margin: auto
+  padding: 150px 0px
+  position: relative
+  background-color: $offwhite
+  font-family: $bodytext
+
+#contacto
+  position: absolute
+  top: 0
+
+
+.title-3
+  color: $verderintenso
+  padding: 0px 0
+  margin: auto
+  font-family: $headerfont
+  text-align: center
+
+.title-3-small
+  color: $verderintenso
+  padding: 0px 0
+  font-family: $headerfont
+  text-align: center
+  margin: auto
+  margin: 5px 0px 50px
+
+.form-wrap
+  text-align: center
+  width: 620px
+  margin: auto
+
+.input-wrap
+  display: inline-block
+  color: white
+  text-align: center
+  position: relative
+
+  input
+    outline: none
+    font-size: 13px
+    width: 302px
+    height: 40px
+    margin-bottom: 10px
+    padding: 5px
+    background-color: $offwhite
+    border: 2px solid $verderintenso
+    color: $offblack
+    display: inline-block
+    border-radius: 4px
+    &:active,
+    &:focus
+      border: 2px solid $verdeoscuro
+
+
+    &[type=email], #nombre-position
+      margin-left: 5px
+    &[type=email], #email-position
+      margin-right: 5px
+
+  label
+    position: absolute
+    top: 12px
+    left: 7px
+    color: $verderintenso
+    font-size: 13px
+    transition: all 0.1s ease-in-out
+
+  input:focus + label,
+  input.has-value + label
+    top: -20
+    color: $verdeoscuro
+    font-size: 11px
+
+#nombre-position
+  margin-right: 5px
+#email-position
+  margin-left: 5px
+
+textarea
+  width: 100%
+  height: 200px
+  padding: 10px
+  margin: 0 0 10px 0px
+  border-radius: 4px
+  background-color: $offwhite
+  border: 2px solid $verderintenso
+  font-size: 14px
+  color: black
+  outline: none
+
+  &:active,
+  &:focus
+    border: 2px solid $verdeoscuro
+
+.form-button
+  font-family: $headerfont
+  font-weight: 800
+  margin: auto
+  margin-top: 10px
+  background-color: $offwhite
+  border: 2px solid $verderintenso
+  color: $verderintenso
+  padding: 10px 20px
+  cursor: pointer
+  border-radius: 4px
+  outline: none
+
+  transition: all 0.5s ease-in-out
+  &:hover
+    background-color: white
+    box-shadow: -5px 10px 6px rgba(0,0,0,0.2)
+    border: 2px solid $verderintenso
+    color: $verderintenso
+
+@media (max-width: 650px)
+
+  .form-wrap
+    width: 100%
+    display: block
+    text-align: center
+    margin-left: 10px
+
+  .input-wrap
+    width: 100%
+    margin: 0px 0px 30px 0px
+    display: block
+
+
+    input
+      display: block
+      width: 95%
+
+
+      &[type=email], #nombre-position
+        margin: 0px 0px
+      &[type=name], #email-position
+        margin: 0px 0px
+
+    label
+      top: 12
+      left: 7
+
+    #email-position
+      margin: 0px 0px
+
+    #nombre-position
+      margin: 0px 0px
+
+
+
+  textarea
+    width: 95%
+    display: block
+    margin-right: 20px
+
+
+
+.contenedor-datos
+  padding: 150px 0px 10px 0px
+
+.contacto-datos
+  text-align: center
+  color: $verderintenso
+  margin: 20px auto
+
+
+
+  @media (max-width: 980px)
+    font-size: 30px
+
+  @media (max-width: 520px)
+    font-size: 20px
+
+  @media (max-width: 400px)
+    font-size: 16px

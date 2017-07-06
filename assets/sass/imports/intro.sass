@@ -1,0 +1,166 @@
+/// SECCIONES
+
+
+.seccion1
+  background:
+    color: $offwhite
+
+  padding: 200px 0px 100px 0px
+
+  position: relative
+
+  .circlewrap
+    position: relative
+
+
+
+  .circle
+    border-radius: 50%
+    height: 330px
+    width: 330px
+    background:
+      image: url(../../assets/images/introbg-1.jpg)
+
+      color: $verdebase
+      position: center
+      size: cover
+      repeat: no-repeat
+    background-blend-mode: multiply
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.3)
+    overflow:
+    opacity: 1
+    z-index: 50
+
+
+  .circle-small, .circle-mid
+    position: absolute
+
+
+
+  .circle-small
+
+    height: 120px
+    width: 120px
+    border-radius: 50%
+    top: -50
+    right: 20
+    opacity: 0.6
+    background:
+      image: url(../../assets/images/webcircle-03.jpg)
+
+      position: center
+      size: cover
+      repeat: no-repeat
+
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.1)
+    background:
+      color: #F3821C
+
+
+  .circle-mid
+
+    left: -25px
+    top: 200
+    height: 110px
+    width: 110px
+    border-radius: 50%
+    bottom: -132px
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.3)
+    opacity: 0.6
+    background:
+      image: url(../../assets/images/webcircle-04.jpg)
+      position: top center
+      size: cover
+      repeat: no-repeat
+    background:
+      color: $pinktriad
+
+
+
+  .parrafo-1
+    margin: auto
+    border-top: 0px solid $offblack
+    color: $offblack
+    text-align: left
+    font-size: $masstext
+    font-weight: $bodyweight
+    line-height: $masstxtline
+    margin-right: 20px
+    margin-top: 20px
+    margin-bottom: 20px
+    max-width: 400px
+
+
+  .header-1
+    margin: 0px 0px
+    max-width: 400px
+
+    @media (max-width: 500px)
+      max-width: 250px
+
+  .textbox
+    max-width: 400px
+    padding-left: 0px
+    border-left: 0px solid $offblack
+    margin: auto
+    padding: auto
+
+
+.texto-bold
+  font-weight: 700
+  font-weight: bold
+
+
+
+
+@media (max-width: 1090px)
+
+  .seccion1
+    .circle
+      align-self: center
+      margin: auto
+
+    .circle-mid
+      left: 16%
+
+
+    .circle-small
+      left: 65%
+
+    .textbox
+      width: 100%
+      margin: auto
+      padding: auto
+
+
+    .header-1, .parrafo-1
+      margin: 0px 20px
+      display: block
+
+
+    .marginbox
+      padding-top: 60px
+
+@media (max-width: 400px)
+
+
+  .textbox
+    width: 100%
+    display: block
+
+  .parrafo-1text
+    width: 100%
+    display: block
+
+
+
+
+@media (max-width: 660px)
+
+  .seccion1
+    .circle
+      align-self: center
+      margin: auto
+
+    .circle-mid
+      left: 6%

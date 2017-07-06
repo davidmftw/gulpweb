@@ -1,0 +1,199 @@
+.navcont
+  width: 130px
+  background-color: black
+  box-shadow: 2px 1px 2px rgba(0,0,0,0.3)
+  background-color: white
+  min-height: 100vh
+  position: flex
+  z-index: 1150
+
+
+  .nav-bar
+    display: flex
+    flex-direction: column
+    align-items: center
+    height: 100vh
+    text-align: center
+    width: 130px
+    position: fixed
+    z-index: 1149
+
+
+
+
+    a
+      font-weight: normal
+      color: black
+      text-decoration: none
+
+    a:active
+      font-weight: normal
+      color: black
+      text-decoration: none
+
+    a:visited
+      font-weight: normal
+      color: black
+      text-decoration: none
+
+    a:link
+      font-weight: normal
+      color: black
+      text-decoration: none
+
+
+
+
+    .logo-dm
+     background-image: url(../images/logo3-01.svg)
+     background-size: contain
+     background-repeat: no-repeat
+     background-position: center
+     height: 70px
+     width: 80px
+     display: inline-block
+     margin-bottom: 50px
+     margin-top: 30px
+
+
+    .icons-nav
+      padding: 0px
+      margin: 0px
+      font-size: 11px
+      letter-spacing: 1px
+      margin-bottom: 20px
+      width: 65px
+      display: inline-block
+      padding: 20px 5px
+      text-align: center
+      border-bottom: 3px solid white
+      font-family: 'Roboto Condensed', sans-serif
+      font-weight: bold
+
+      &:hover
+        border-bottom: 3px solid #50bbbd
+
+    .icons-mobile
+      display: none
+
+
+
+@media (max-width: 920px)
+  .navcont
+    display: flex
+    position: fixed
+    width: 100%
+    background-color: white
+    min-height: 60px
+    box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.2)
+    justify-content: center
+    align-items: center
+
+
+    .nav-bar
+      width: 100%
+      position: fixed
+      background-color:
+      display: flex
+      height: auto
+      flex-direction: row
+      background:
+        color: white
+    
+      margin: auto
+      align-items: center
+      justify-content: center
+
+      .logo-dm
+        margin: auto
+        margin: 00px 50px
+        padding:
+
+
+      .icons-web
+        display: none
+
+
+
+      .icons-mobile
+        display: flex
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        right: 0px
+        background-color: white
+        width: 100%
+        align-items: center
+        top: -565px
+        color: white
+        box-shadow: 0px 3px 4px rgba(0,0,0,0)
+        transition: all 0.2s ease-in-out
+        z-index: -11
+        opacity: 0
+
+        &.menu-open
+          transform: translateY(626px)
+          transform:
+          position: fixed
+          box-shadow: 0px 3px 4px rgba(0,0,0,0.3)
+          opacity: 1
+
+
+      .icons-nav
+        margin: auto
+        &:last-child
+          margin-bottom: 10px
+        position: relative
+
+
+      .buttontoggle
+        height: 34px
+        width: 34px
+        background-color:
+        display: flex
+        align-items: center
+        margin-left: 0px
+        cursor: pointer
+        position: relative
+
+
+
+
+
+        span,
+        span:before,
+        span:after
+
+          content: ""
+          width: 100%
+          height: 3px
+          background-color: #50bbbd
+          display: block
+          position: relative
+          transition: all 0.3s ease-in-out
+
+        span:before
+          top: 10
+
+        span:after
+          top: -13
+
+        &.toggle span
+          background: transparent
+
+        &.toggle span:after
+          transform-origin: center
+          transform: rotate(-45deg)
+          top: 0
+
+        &.toggle span:before
+          transform-origin: center
+          transform: rotate(45deg)
+          top: 3
+
+
+
+#intro, #portfolio
+  position: absolute
+  top: 0
+  left: 0

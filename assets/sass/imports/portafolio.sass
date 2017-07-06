@@ -1,0 +1,203 @@
+
+
+
+.seccion2
+
+  background-color: $verdebase
+
+  width: 200%
+  padding: 100px 0px 100px 0px
+  overflow: hidden
+  position: relative
+  left: 0%
+  transition: all 0.7s ease-in-out
+
+  .textbox2
+    max-width: 640px
+    margin: auto
+    padding: 0
+
+
+
+  .header-2
+
+    color: $seccion2
+    margin: auto
+
+
+
+
+
+  .contenedor-portafolio
+    display: flex
+    text-align: center
+    margin: auto
+
+    background-color:
+    width: 640px
+    justify-content: center
+
+  .header-2
+    margin: auto 15px
+
+  .mass-text2
+    color: $seccion2
+    margin: auto 15px
+    margin-bottom: 30px
+    font-size: $masstext
+    border-top: 0px solid $goldtriad
+    opacity: 1
+    line-height: $masstxtline
+    text-align: left
+
+
+
+
+  @media (max-width: 720px)
+    .contenedor-portafolio
+      background-color:
+      display: flex
+      margin: auto
+      margin-top: 40px
+      height: auto
+      width: auto
+      text-align: center
+      align-items: center
+      justify-content: center
+
+
+    .figurecont
+      display: inline-block
+      margin: auto
+      background-color:
+      text-align: center
+      height: auto
+
+
+
+    figure
+      display: inline-block
+      margin: auto
+      background-color: #ededed
+      text-align: center
+
+
+
+    .textbox2
+      display: block
+      margin: auto
+
+    .mass-text2
+      display: block
+
+
+
+
+.figurecont
+  height: auto
+  width: auto
+  display: block
+  margin: 20px 0px
+  overflow: hidden
+
+
+  figure
+    position: relative
+    display: inline-block
+    height: 145px
+    width: 204px
+    margin: auto
+    padding: auto
+    filter: grayscale(0%)
+    overflow: hidden
+    opacity: 0
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.3)
+    transition: all 0.6s ease-in-out
+    transform:translateX(-20px)
+    cursor: pointer
+
+  figcaption
+    height: 100%
+    width: 100%
+    opacity: 1
+    color: #ededed
+    position: absolute
+    text-align: left
+    font-size: 20px
+    margin: auto
+    border-radius: 0%
+    transition: all 0.2s ease-in-out
+
+  .top
+    transform: translateY(-200%)
+
+  .bot
+    transform: translateY(200%)
+
+
+
+  .fctop
+
+    width: 100%
+    background-color: $pinktriad
+    padding-bottom: 5px
+    border-right: 0px solid $goldtriad
+
+
+  .fctitle, .fctype
+    color: $seccion2
+    text-align: left
+    margin-left: 10px
+    margin-right: 8px
+
+  .fcintro
+    margin-left: 10px
+    color: $seccion2
+    text-align: left
+    margin-right: 8px
+
+  .fctitle
+
+    padding: 10px 0px 0px 0px
+    font-size: 15px
+    font-weight: 700
+    letter-spacing: 0px
+    line-height: 1
+    text-transform: uppercase
+    font-family: $headerfont
+
+
+  .fctype
+    font-size: 10px
+    text-align: left
+    letter-spacing: 1px
+    font-weight: 400
+    opacity: 1
+    line-height: 1
+    margin-top: 3px
+    text-transform: uppercase
+    padding-bottom: 3px
+
+  .fcbot
+
+    height: 100%
+    width: 100%
+    background-color: rgba($verdeoscuro2, 0.8)
+    mix-blend-mode: multiply
+
+  .fcintro
+
+    font-size: 11px
+    padding-top: 8px
+    font-weight: 400
+    color: $seccion2
+    opacity: 1
+
+
+  figure:hover figcaption
+    transform: translateX(0%)
+    @extend %animation
+
+  .is-showing2
+    opacity: 1
+    transform:translateX(0px)

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+
+		.st0{fill:none;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.6131;stroke-dasharray:2100;}
+
+	.st0 {
+		stroke-dasharray: 2100;
+		stroke-dashoffset: 0;
+		animation: dash 10s ease-in-out infinite;
+	}
+
+	@keyframes dash {
+		0% {
+			stroke-dashoffset: 2300;
+			stroke: #50bbbd
+			}
+
+
+		20%, 90% {
+			stroke-dashoffset: 0;
+			stroke: #000000
+
+			}
+
+		100% {
+			stroke-dashoffset: 2300;
+			stroke: #50bbbd
+			}
+	}
+</style>
+<g>
+	<path class="st0" d="M51.9,433.2h396.2V211.1c0-7.3-6-13.3-13.3-13.3H65.2c-7.3,0-13.3,6-13.3,13.3
+		C51.9,211.1,51.9,433.2,51.9,433.2z"/>
+	<path class="st0" d="M259.5,234.8h137.2c1.8,0,3.2,1.4,3.2,3.2v64.6c0,1.8-1.4,3.2-3.2,3.2H259.5c-1.8,0-3.2-1.4-3.2-3.2V238
+		C256.3,236.3,257.7,234.8,259.5,234.8z"/>
+	<polyline class="st0" points="25,433.3 475,433.3 475,467.9 	"/>
+	<path class="st0" d="M475,467.9c0,8.2-6.7,14.9-14.9,14.9"/>
+	<line class="st0" x1="460.1" y1="482.8" x2="36.9" y2="482.8"/>
+	<path class="st0" d="M36.9,482.8c-6.5,0-11.9-5.3-11.9-11.9"/>
+	<line class="st0" x1="25" y1="470.9" x2="25" y2="433.3"/>
+	<line class="st0" x1="46.8" y1="458" x2="192.7" y2="458"/>
+	<path class="st0" d="M402.2,461.2c1.7,0,3.1-1.4,3.1-3.1s-1.4-3.1-3.1-3.1s-3.1,1.4-3.1,3.1C399.1,459.7,400.5,461.2,402.2,461.2"
+		/>
+	<path class="st0" d="M425.8,461.2c1.7,0,3.1-1.4,3.1-3.1s-1.4-3.1-3.1-3.1s-3.1,1.4-3.1,3.1C422.7,459.7,424.1,461.2,425.8,461.2"
+		/>
+	<path class="st0" d="M447.4,461.2c1.7,0,3.1-1.4,3.1-3.1s-1.4-3.1-3.1-3.1s-3.1,1.4-3.1,3.1C444.3,459.7,445.7,461.2,447.4,461.2"
+		/>
+	<line class="st0" x1="253.9" y1="333.3" x2="399.9" y2="333.3"/>
+	<g>
+		<line class="st0" x1="401.6" y1="358.1" x2="200.1" y2="358.1"/>
+		<line class="st0" x1="179.5" y1="358.1" x2="91.7" y2="358.1"/>
+	</g>
+	<g>
+		<line class="st0" x1="91.7" y1="382.8" x2="215.2" y2="382.8"/>
+		<line class="st0" x1="235.3" y1="382.8" x2="401.6" y2="382.8"/>
+	</g>
+	<line class="st0" x1="91.7" y1="407.6" x2="401.6" y2="407.6"/>
+	<g>
+		<polyline class="st0" points="124.2,248.8 94,280.1 124.8,311.8 		"/>
+		<polyline class="st0" points="185.7,248.8 216,280.1 185.1,311.8 		"/>
+		<line class="st0" x1="173.2" y1="234.8" x2="139.7" y2="325.8"/>
+	</g>
+</g>
+</svg>

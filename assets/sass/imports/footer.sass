@@ -1,0 +1,50 @@
+.contenedor-footer
+  width: 100%
+  margin: auto
+  padding: 1px 0px 1px 0px
+  background-color: black
+
+.footerflex
+  display: flex
+
+.footer
+  background-color: black
+  color: #999999
+  line-height: 1.2
+  letter-spacing: 1px
+  margin: auto
+  justify-content: space-around
+
+  .footerpart
+    margin: 20px 20px
+    margin-bottom: 30px
+    width: 220px
+    padding: auto
+
+  a
+    text-decoration: none
+    color: #999999
+
+    &:hover
+      color: $verdebase
+
+
+  span
+    color: $verdebase
+
+  .border-right
+    border-right: 1px solid #494949
+
+@media (max-width: 1040px)
+  .footerflex
+    display: block
+  .footer
+
+
+    .footerpart
+      width: 200px
+      display: block
+
+
+    .border-right
+      border-right: 0px solid white
