@@ -6,11 +6,15 @@
 
   .frase
     text-align: center
-    margin: 0px auto 170px
+    margin: auto auto 170px auto
     color: $offblack
     max-width: 550px
     z-index: 50
     position: relative
+    background-blend-mode: multiply
+
+    @media (max-width: 500px)
+      margin-left: 10px
 
   .contenedor-imagen
     height: 400px
@@ -33,6 +37,7 @@
         repeat: no-repeat
         position: center center
         size: contain
+      background-blend-mode: multiply
       left: 0
       right: 0
       top: 0
