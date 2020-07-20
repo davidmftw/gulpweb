@@ -17,7 +17,6 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-pug": "^3.3.0",
     "gulp-jekyll": "^0.0.0",

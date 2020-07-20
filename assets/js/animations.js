@@ -14,7 +14,7 @@
   });
 
   $('.bubbles'). css({
-    'transform' : 'translate(-'+ wScroll /236 +'%, -'+ wScroll /25 +'%)',
+    'transform' : 'translate(-'+ wScroll /236 +'%, -'+ wScroll /40 +'%)',
     'opacity' : opacity
 
 

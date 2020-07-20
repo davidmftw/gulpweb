@@ -7,10 +7,10 @@ h1 {
   font-weight: 700; }
   @media (max-width: 500px) {
     h1 {
-      font-size: 30px; } }
+      font-size: 26px; } }
 
 h2 {
-  font-size: 22px;
+  font-size: 17px;
   color: inherit;
   margin: auto;
   padding: auto;
@@ -31,7 +31,7 @@ h4 {
   font-family: "Open Sans", sans-serif; }
 
 h5 {
-  font-size: 17px;
+  font-size: 27px;
   color: inherit;
   margin: auto;
   padding: auto;
@@ -50,7 +50,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Open Sans", sans-serif;
-  background-color: lightyellow;
   font-size: 11px;
   font-weight: 500; }
 
@@ -58,6 +57,20 @@ body {
   position: absolute;
   top: 0;
   left: 0; }
+
+#portfolio {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#portafolio2 {
+  left: 0;
+  top: 0;
+  position: absolute; }
+
+#contacto {
+  position: absolute;
+  top: 0; }
 
 .containerall {
   display: flex;
@@ -431,11 +444,6 @@ body {
           transform: rotate(45deg);
           top: 3; } }
 
-#intro, #portfolio {
-  position: absolute;
-  top: 0;
-  left: 0; }
-
 .seccion1 {
   background-color: #ededed;
   padding: 200px 0px 100px 0px;
@@ -626,11 +634,15 @@ body {
   font-family: "Open Sans", sans-serif; }
   .seccion1pt2 .frase {
     text-align: center;
-    margin: 0px auto 170px;
+    margin: auto auto 170px auto;
     color: #131313;
     max-width: 550px;
     z-index: 50;
-    position: relative; }
+    position: relative;
+    background-blend-mode: multiply; }
+    @media (max-width: 500px) {
+      .seccion1pt2 .frase {
+        margin-left: 10px; } }
   .seccion1pt2 .contenedor-imagen {
     height: 400px;
     max-width: 100%;
@@ -648,6 +660,7 @@ body {
       background-repeat: no-repeat;
       background-position: center center;
       background-size: contain;
+      background-blend-mode: multiply;
       left: 0;
       right: 0;
       top: 0;
@@ -797,7 +810,8 @@ body {
 
 .seccion2pt1, .seccion2pt2 {
   width: 50%;
-  float: left; }
+  float: left;
+  position: relative; }
 
 .seccion2pt2 {
   display: none;
@@ -1148,3 +1162,22 @@ textarea {
       box-shadow: -5px 10px 6px rgba(0, 0, 0, 0.2);
       border: 1px solid #e4e4e4;
       color: #e4e4e4; }
+  .botoncont .boton-2 {
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rbga(grey, 0.5);
+    border-radius: 0px;
+    text-align: center;
+    color: #50bbbd;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 3px 4px transparent;
+    border: 1px solid #50bbbd;
+    transition: all 0.5s ease-in-out; }
+    .botoncont .boton-2:hover {
+      box-shadow: -5px 10px 6px rgba(0, 0, 0, 0.2);
+      border: 1px solid #50bbbd;
+      color: #50bbbd; }

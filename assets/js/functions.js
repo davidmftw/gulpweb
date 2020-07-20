@@ -11,11 +11,13 @@ $(document).ready(function() {
   $('.figurecont figure').click(function() {
     $('.seccion2').css('left','-100%');
     $('.seccion2pt2').css('display','block');
+
   });
 
   $('.portfolio').click(function() {
     $('.seccion2').css('left','0%');
     $('.seccion2pt2').hide(400);
+  
   });
 
 
